@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lamhe Demo</title>
+    <script src="/src/lamhe.js"></script>
+</head>
+<body>
+  <!--  <form>-->
+        <input type="text" id="format" placeholder="Enter format">
+        <input type="text" id="timestamp" placeholder="Enter unix timestamp">
+        <h3 id="display"></h3>
+        <button onclick="return calculate()">Submit</button>
+   <!-- </form>-->
+
+</body>
+<script>
+    function calculate(){
+        var format = document.getElementById('format');
+        var timestamp = document.getElementById('timestamp');
+        document.getElementById('display').innerHTML = lamhe.convertUnix(timestamp.value, format.value);
+        return false;
+    }
+
+
+</script>
+</html>
