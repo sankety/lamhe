@@ -1,4 +1,5 @@
-# lamhe
+# Lamhe [![Build Status](https://travis-ci.com/sankety/lamhe.svg?branch=master)](https://travis-ci.com/sankety/lamhe) 
+
 Easy converting UNIX timestamp into desired date format for javascript.
 ## Official Documentation
 Allowed date formats

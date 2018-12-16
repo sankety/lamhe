@@ -4,6 +4,8 @@
 (function (global) {
     global.lamhe = {};
     global.lamhe.convertUnix = function(input,format,wantTime){
+        format = format || 'd-m-y';
+        input = input || (Date.now() / 1000);
         var a = new Date(input * 1000);
         if(format.length!=5){
             return 'Not a valid format!';

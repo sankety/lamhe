@@ -1,0 +1,24 @@
+{
+  "name": "lamhe",
+  "version": "1.0.0",
+  "description": "This package provides easy converting of unix timestamps to date time formats",
+  "main": "lamhe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sankety/lamhe.git"
+  },
+  "keywords": [
+    "unix",
+    "timestamp",
+    "javascript"
+  ],
+  "author": "SanketY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sankety/lamhe/issues"
+  },
+  "homepage": "https://github.com/sankety/lamhe#readme"
+}
